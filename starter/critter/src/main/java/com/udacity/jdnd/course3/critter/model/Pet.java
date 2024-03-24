@@ -10,7 +10,7 @@ public class Pet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @ElementCollection
+    @Enumerated(EnumType.STRING)
     private PetType type;
     private String name;
     private LocalDate birthDate;
