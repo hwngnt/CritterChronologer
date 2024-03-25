@@ -30,6 +30,13 @@ public class Pet {
         this.owner = owner;
     }
 
+    public Pet(PetType type, String name, LocalDate birthDate, String notes) {
+        this.type = type;
+        this.name = name;
+        this.birthDate = birthDate;
+        this.notes = notes;
+    }
+
     public Long getId() {
         return id;
     }

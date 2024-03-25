@@ -31,6 +31,12 @@ public class Schedule {
         this.activities = activities;
     }
 
+    public Schedule(Long id, LocalDate date, Set<EmployeeSkill> activities) {
+        this.id = id;
+        this.date = date;
+        this.activities = activities;
+    }
+
     public Long getId() {
         return id;
     }
