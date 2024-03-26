@@ -203,7 +203,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "[\"MONDAY\", \"TUESDAY\", \"FRIDAY\"]",
+					"raw": "{\"employeeIds\": [\"1\"],\n    \"petIds\": [\"1\"],\n    \"date\": \"2024-03-23\",\n    \"activities\": [\n        \"FEEDING\",\n        \"PETTING\"\n    ]}",
 					"options": {
 						"raw": {
 							"language": "json"
