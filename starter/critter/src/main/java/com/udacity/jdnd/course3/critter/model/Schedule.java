@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Set;
 
 @Entity
+@Table
 public class Schedule {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

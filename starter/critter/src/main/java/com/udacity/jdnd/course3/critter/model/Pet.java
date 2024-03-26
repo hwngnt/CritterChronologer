@@ -6,6 +6,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
+@Table
 public class Pet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

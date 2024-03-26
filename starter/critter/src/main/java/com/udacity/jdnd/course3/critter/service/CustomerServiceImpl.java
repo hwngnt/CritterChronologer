@@ -39,6 +39,6 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Customer getOwnerByPetId(long petId) {
-        return customerRepository.findByPetId(petId);
+        return petRepository.getOne(petId).getOwner();
     }
 }
